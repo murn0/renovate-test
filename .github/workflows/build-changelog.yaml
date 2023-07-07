@@ -12,4 +12,4 @@ jobs:
           fetch-depth: 0
       - name: Build Changelog
         id: github_release
-        uses: mikepenz/release-changelog-builder-action@3b1ae42e11b5ea757855786ec4d757a76e4d4e11 # v4.0.0
+        uses: mikepenz/release-changelog-builder-action@c73ff7421c59fa0d090dcfe62e24a758977c699d # v3.7.0
