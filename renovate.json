@@ -3,5 +3,13 @@
   "extends": [
     "config:base",
     "github>murn0/renovate-config"
+  ],
+  "regexManagers": [
+    {
+      "fileMatch": ["^.github/workflows/build-changelog\\.yaml"],
+      "depNameTemplate": "mikepenz/release-changelog-builder-action",
+      "datasourceTemplate": "github-releases",
+      "matchStrings": ["# v\"(?<currentValue>.*)\""]
+    }
   ]
 }
