@@ -7,7 +7,7 @@
   "regexManagers": [
     {
       "fileMatch": ["install-aquaproj\\.mk$"],
-      "matchStrings": ["raw\\.githubusercontent\\.com/aquaproj/aqua-installer/(?<currentValue>[^'\" \\n]+)/aqua-installer\n@echo \"(?<currentDigest>[0-9a-f]*)?\""],
+      "matchStrings": ["raw\\.githubusercontent\\.com/aquaproj/aqua-installer/(?<currentValue>[^'\" \\n]+)/aqua-installer\n.*@echo \"(?<currentDigest>[0-9a-f]*)?\""],
       "depNameTemplate": "aquaproj/aqua-installer",
       "datasourceTemplate": "github-releases"
     }
