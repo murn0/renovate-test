@@ -4,5 +4,13 @@
     "config:base",
     "github>murn0/renovate-config",
     "github>aquaproj/aqua-renovate-config:installer-script#1.6.0(install-aquaproj\\.mk)"
+  ],
+  "regexManagers": [
+    {
+      "fileMatch": ["^.install-aquaproj\\.mk$"],
+      "matchStrings": ["@echo \"(@(?<currentDigest>[0-9a-f]*))?\""],
+      "depNameTemplate": "aquaproj/aqua-installer",
+      "datasourceTemplate": "github-releases"
+    }
   ]
 }
