@@ -3,14 +3,5 @@
   "extends": [
     "config:base",
     "github>murn0/renovate-config"
-  ],
-  "regexManagers": [
-    {
-      "datasourceTemplate": "github-releases",
-      "fileMatch": ["^README.md$"],
-      "matchStrings": [
-          "https://github.com/+(?<depName>(?<packageName>[^'\" .@/\\n]+/[^'\" @/\\n]+)(/[^'\" /@\\n]+)*)\\) \\`(?<currentValue>[^'\" \\n\\`]+)"
-      ]
-    }
   ]
 }
