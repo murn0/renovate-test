@@ -19,8 +19,8 @@
 - GithubCLI (https://github.com/cli/cli) `v2.33.0`
 - exa (https://github.com/ogham/exa) `v0.10.1`
 - erdtree (https://github.com/solidiquis/erdtree) `v0.3.0`
-- fd (https://github.com/sharkdp/fd)@`v8.2.1`
-- bat (https://github.com/sharkdp/bat) `0.23.0`
+- fd (https://github.com/sharkdp/fd) @`v8.2.1`
+- bat (https://github.com/sharkdp/bat) `v0.23.0`
 - fzf (https://github.com/junegunn/fzf)
 - zoxide (https://github.com/ajeetdsouza/zoxide)
 - dog (https://github.com/ogham/dog)
