@@ -18,7 +18,7 @@
 ## Install packages
 - GithubCLI (https://github.com/cli/cli) `v2.33.0`
 - exa (https://github.com/ogham/exa) `v0.10.1`
-- erdtree (https://github.com/solidiquis/erdtree) `v0.3.0`
+- erdtree (https://github.com/solidiquis/erdtree) `v3.1.2`
 - fd (https://github.com/sharkdp/fd) @`v8.2.1`
 - bat (https://github.com/sharkdp/bat) `v0.23.0`
 - fzf (https://github.com/junegunn/fzf)
