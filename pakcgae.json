@@ -1,12 +1,8 @@
 {
-    "scripts": {
-        "watch": "run-p *:watch",
-        "build": "run-s -c *:build",
-        "sass:watch": "sass --style=expanded src/scss/main-dev.scss assets/css/main.css & sass --watch --style=expanded src/scss/main-dev.scss assets/css/main.css",
-        "sass:build": "sass --no-source-map --style=compressed src/scss/main.scss assets/css/main.css",
-        "webpack:watch": "npx webpack --watch --mode=development",
-        "webpack:build": "npx webpack --mode=production --node-env=production",
-        "postcss:build": "npx postcss assets/css/*.css --use autoprefixer -d assets/css/"
+    "$schema": "https://json.schemastore.org/package.json",
+    "dependencies": {
+        "webpack": "5.74.0",
+        "webpack-cli": "4.10.0"
     },
     "devDependencies": {
         "@googlemaps/js-api-loader": "^1.14.3",
@@ -21,8 +17,6 @@
         "postcss-cli": "^10.0.0",
         "sass": "^1.54.5",
         "style-loader": "^3.3.1",
-        "swiper": "^8.3.2",
-        "webpack": "5.74.0",
-        "webpack-cli": "4.10.0"
+        "swiper": "^8.3.2"
     }
 }
